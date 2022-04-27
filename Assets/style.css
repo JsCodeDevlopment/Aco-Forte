@@ -1,8 +1,8 @@
 .inicio{
-max-width: 1366px;
-min-height: 768px;
-background-image: url(../Imagens/Background-Home.png);
-background-repeat: no-repeat;
+    max-width: 1366px;
+    min-height: 768px;
+    background-image: url(../Imagens/Background-Home.png);
+    background-repeat: no-repeat;
 }
 nav {
     display: flex;
@@ -31,4 +31,28 @@ nav {
 } button:hover{
     background-color: black;
     cursor: pointer;
+}
+
+/* NOSSOS PRODUTOS */
+.produtos{
+    background-image: url(../Imagens/Background-Nossos-Produtos.png);
+    max-width: 1366px;
+    min-height: 768px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} .ajuste-top-produtos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+} .menu-produtos > a{
+    list-style: none;
+    color: white;
+    font-family: 'Roboto', sans-serif
+} .ajuste-card-produto{
+    display: flex;
+    align-items: center;
 }
