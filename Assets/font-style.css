@@ -1,0 +1,12 @@
+.menu-inicio{
+    list-style: none;
+    color: #15275b; 
+    font-size: larger;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.main-text{
+    color: #15275b; 
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
