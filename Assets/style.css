@@ -67,3 +67,14 @@ nav {
 }
 
 /* SOBRE */
+.sobre{
+    background-image: url(../Imagens/Background-Sobre.png);
+    max-width: 1366px;
+    min-height: 768px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} .ajuste-texto-sobre{
+    max-width: 50%;
+}
