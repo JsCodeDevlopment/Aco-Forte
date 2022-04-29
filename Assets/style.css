@@ -120,6 +120,10 @@ nav {
     border-radius: 20px;
     background-color: #000;
 }
+.input-form{
+    border: 3px solid #15275b;
+    border-radius: 10px;
+}
 
 @media (max-width: 460px){
     #textarea{
