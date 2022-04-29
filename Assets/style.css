@@ -120,6 +120,14 @@ nav {
     border-radius: 20px;
     background-color: #000;
 }
+
+@media (max-width: 460px){
+    #textarea{
+        max-width: 230px;
+    }
+}
+
+
 .rodape{
     display: inline-block;
     width: 100%;
