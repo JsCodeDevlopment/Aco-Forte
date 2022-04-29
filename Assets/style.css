@@ -20,7 +20,7 @@ nav {
     padding: 0 50px;
 } .ajuste-main-text{
     max-width: 550px;
-} button{
+} .botao-inicio{
     background-color: #15275b;
     border: white solid 3px;
     border-radius: 15px;
@@ -28,7 +28,7 @@ nav {
     height: 40px;
     color: white;
     font-family: 'Roboto', sans-serif;
-} button:hover{
+} .botao-inicio:hover{
     background-color: black;
     cursor: pointer;
 }
@@ -126,3 +126,17 @@ nav {
     background-color: #000;
     text-align: center;
 }
+
+/* BOTÃO VOLTAR AO TOPO */
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    /* border: 3px solid black; */
+    border-radius: 50%;
+  } button > img {
+      width: 40px;
+      height: 40px;
+      /* border: #fff 3px solid;
+      border-radius: 50%; */
+  }
