@@ -78,6 +78,11 @@ nav {
 } .ajuste-texto-sobre{
     max-width: 50%;
 }
+@media (max-width: 850px) {
+    .ajuste-texto-sobre > h3{
+        font-size: 13px;
+    }
+}
 
 /* CONTATO */
 .contato{
