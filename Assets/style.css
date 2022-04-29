@@ -109,6 +109,9 @@ nav {
     display: flex;
     max-width: 543px;
     margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #15275b;
 }
 .rodape{
     display: inline-block;
